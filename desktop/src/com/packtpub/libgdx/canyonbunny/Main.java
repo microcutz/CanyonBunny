@@ -20,7 +20,6 @@ public class Main {
             settings.maxHeight = 1024;
             settings.duplicatePadding = false;
             settings.debug = drawDebugOutline;
-            //TexturePacker.process(settings, "assets-raw/images", "../CanyonBunny-android/assets/images", "canyonbunny.pack");
             TexturePacker.process(settings, "desktop/assets-raw/images", "android/assets/images", "canyonbunny.pack");
         }
 
