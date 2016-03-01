@@ -58,11 +58,11 @@
 					"isa" = "XCBuildConfiguration";
 					"buildSettings" =
 						{
-							"INFOPLIST_FILE" = "/Users/bryan/Development/Java/CanyonBunny/ios/Info.plist.xml";
+							"INFOPLIST_FILE" = "/Volumes/ShareDrive/Development/Java/CanyonBunny/ios/Info.plist.xml";
 							"SDKROOT" = "iphoneos";
 							"TARGETED_DEVICE_FAMILY" = "1,2";
 							"GCC_PRECOMPILE_PREFIX_HEADER" = "YES";
-							"GCC_PREFIX_HEADER" = "/Users/bryan/Development/Java/CanyonBunny/ios/robovm-build/xcode/.ib/Prefix.pch";
+							"GCC_PREFIX_HEADER" = "/Volumes/ShareDrive/Development/Java/CanyonBunny/ios/robovm-build/xcode/.ib/Prefix.pch";
 						};
 					"name" = "Debug";
 				};
@@ -71,11 +71,11 @@
 					"isa" = "XCBuildConfiguration";
 					"buildSettings" =
 						{
-							"INFOPLIST_FILE" = "/Users/bryan/Development/Java/CanyonBunny/ios/Info.plist.xml";
+							"INFOPLIST_FILE" = "/Volumes/ShareDrive/Development/Java/CanyonBunny/ios/Info.plist.xml";
 							"SDKROOT" = "iphoneos";
 							"TARGETED_DEVICE_FAMILY" = "1,2";
 							"GCC_PRECOMPILE_PREFIX_HEADER" = "YES";
-							"GCC_PREFIX_HEADER" = "/Users/bryan/Development/Java/CanyonBunny/ios/robovm-build/xcode/.ib/Prefix.pch";
+							"GCC_PREFIX_HEADER" = "/Volumes/ShareDrive/Development/Java/CanyonBunny/ios/robovm-build/xcode/.ib/Prefix.pch";
 						};
 					"name" = "Release";
 				};
@@ -91,13 +91,17 @@
 				{
 					"isa" = "PBXGroup";
 					"children" =
-						("24CC7CDBAC604454A357AEF2", "EE6E5D8CA1B0493EB82A508E", "528603F35CBC4A9FB4681F37",
- "F490A0007D9B4E3590DCC6DE", "13244F2C77D8443BBE6CC90A", "6F8EEE1D90EE4F459451DF8E",
- "14EEBA166B934409825813F7", "CFA109BB94734DDFBDC8E8A8", "5CF84A16D2414F2895C10AC2",
- "E5F2636EF0744AF0A63BC8F1", "905C6911705F46759BB73449");
+						("762DFD3F6465445CB2F11162", "24CC7CDBAC604454A357AEF2", "DA47E1E0CEC54D1A97C1232F",
+ "416CE30C061746E1A85EE495", "EE6E5D8CA1B0493EB82A508E", "528603F35CBC4A9FB4681F37",
+ "6DA28C8A36624E018C7364E4", "C5E66D39B8C542F0987BFAAA", "F490A0007D9B4E3590DCC6DE",
+ "13244F2C77D8443BBE6CC90A", "E97FE69E7F764BAFA8854C40", "6F8EEE1D90EE4F459451DF8E",
+ "F2F0705A13E54122AEEB4D21", "14EEBA166B934409825813F7", "195EEFB28DCE4EF4B7DF6879",
+ "A339C39436E44B56A1B4110F", "CFA109BB94734DDFBDC8E8A8", "5CF84A16D2414F2895C10AC2",
+ "C49B14623B044534923352AE", "738D2F2EDFF74133AA4771B5", "E5F2636EF0744AF0A63BC8F1",
+ "39EF8C11C62C46BCA3C32E3C", "905C6911705F46759BB73449");
 					"name" = "Resources";
 					"sourceTree" = "<absolute>";
-					"path" = "/Users/bryan/Development/Java/CanyonBunny/ios/data";
+					"path" = "/Volumes/ShareDrive/Development/Java/CanyonBunny/ios/../android/assets";
 				};
 			"24CC7CDBAC604454A357AEF2" =
 				{
@@ -199,10 +203,123 @@
 				{
 					"isa" = "PBXGroup";
 					"children" =
-						("03150783459740089E1F4C62");
+						("03150783459740089E1F4C62", "DE8DC0985D904FB2AE132B8E");
 					"name" = "Supporting Files";
 					"sourceTree" = "<absolute>";
-					"path" = "/Users/bryan/Development/Java/CanyonBunny/ios";
+					"path" = "/Volumes/ShareDrive/Development/Java/CanyonBunny/ios";
+				};
+			"DA47E1E0CEC54D1A97C1232F" =
+				{
+					"isa" = "PBXFileReference";
+					"name" = "Default-375w-667h@2x.png";
+					"lastKnownFileType" = "image.png";
+					"sourceTree" = "<group>";
+					"path" = "Default-375w-667h@2x.png";
+				};
+			"416CE30C061746E1A85EE495" =
+				{
+					"isa" = "PBXFileReference";
+					"name" = "Default-414w-736h@3x.png";
+					"lastKnownFileType" = "image.png";
+					"sourceTree" = "<group>";
+					"path" = "Default-414w-736h@3x.png";
+				};
+			"6DA28C8A36624E018C7364E4" =
+				{
+					"isa" = "PBXFileReference";
+					"name" = "Default-568h@2x.png";
+					"lastKnownFileType" = "image.png";
+					"sourceTree" = "<group>";
+					"path" = "Default-568h@2x.png";
+				};
+			"C5E66D39B8C542F0987BFAAA" =
+				{
+					"isa" = "PBXFileReference";
+					"name" = "Default.png";
+					"lastKnownFileType" = "image.png";
+					"sourceTree" = "<group>";
+					"path" = "Default.png";
+				};
+			"E97FE69E7F764BAFA8854C40" =
+				{
+					"isa" = "PBXFileReference";
+					"name" = "Default@2x.png";
+					"lastKnownFileType" = "image.png";
+					"sourceTree" = "<group>";
+					"path" = "Default@2x.png";
+				};
+			"F2F0705A13E54122AEEB4D21" =
+				{
+					"isa" = "PBXFileReference";
+					"name" = "Default@2x~ipad.png";
+					"lastKnownFileType" = "image.png";
+					"sourceTree" = "<group>";
+					"path" = "Default@2x~ipad.png";
+				};
+			"195EEFB28DCE4EF4B7DF6879" =
+				{
+					"isa" = "PBXFileReference";
+					"name" = "Default~ipad.png";
+					"lastKnownFileType" = "image.png";
+					"sourceTree" = "<group>";
+					"path" = "Default~ipad.png";
+				};
+			"A339C39436E44B56A1B4110F" =
+				{
+					"isa" = "PBXFileReference";
+					"name" = "Icon-72.png";
+					"lastKnownFileType" = "image.png";
+					"sourceTree" = "<group>";
+					"path" = "Icon-72.png";
+				};
+			"C49B14623B044534923352AE" =
+				{
+					"isa" = "PBXFileReference";
+					"name" = "Icon-72@2x.png";
+					"lastKnownFileType" = "image.png";
+					"sourceTree" = "<group>";
+					"path" = "Icon-72@2x.png";
+				};
+			"738D2F2EDFF74133AA4771B5" =
+				{
+					"isa" = "PBXFileReference";
+					"name" = "Icon.png";
+					"lastKnownFileType" = "image.png";
+					"sourceTree" = "<group>";
+					"path" = "Icon.png";
+				};
+			"39EF8C11C62C46BCA3C32E3C" =
+				{
+					"isa" = "PBXFileReference";
+					"name" = "Icon@2x.png";
+					"lastKnownFileType" = "image.png";
+					"sourceTree" = "<group>";
+					"path" = "Icon@2x.png";
+				};
+			"733BDE325EB5444F9AD72375" =
+				{
+					"isa" = "PBXFileReference";
+					"name" = "canyonbunny.png";
+					"lastKnownFileType" = "image.png";
+					"sourceTree" = "<group>";
+					"path" = "canyonbunny.png";
+				};
+			"762DFD3F6465445CB2F11162" =
+				{
+					"isa" = "PBXGroup";
+					"children" =
+						("733BDE325EB5444F9AD72375");
+					"name" = "images";
+					"sourceTree" = "<group>";
+					"path" = "images";
+				};
+			"DE8DC0985D904FB2AE132B8E" =
+				{
+					"isa" = "PBXFileReference";
+					"name" = "Info.plist";
+					"explicitFileType" = "text.plist.info";
+					"sourceTree" = "<group>";
+					"path" = "Info.plist.xml";
 				};
 		};
 	"rootObject" = "100000000000000000000001";
